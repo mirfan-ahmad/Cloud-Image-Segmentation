@@ -5,7 +5,21 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 import os
-import cv2
+
+try:
+    import cv2
+    print("cv2 is already installed.")
+except ImportError:
+    print("cv2 is not installed. Installing now...")
+    try:
+        import subprocess
+        import sys
+        subprocess.check_call([sys.executable, "-m", "pip", "install", "opencv-python"])
+        print("cv2 installed successfully.")
+        import cv2
+    except Exception as e:
+        print("Failed to install cv2:", e)
+
 import streamlit as st
 
 
