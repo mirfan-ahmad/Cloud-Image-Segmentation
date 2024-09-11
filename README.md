@@ -1,1 +1,1 @@
-"# Cloud-Image-Segmentation" 
+# Cloud-Image-Segmentation
