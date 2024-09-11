@@ -8,7 +8,10 @@ This repository contains a **Streamlit** application that allows users to upload
 - Use a pre-trained **U-Net** model to segment the uploaded images.
 - Display the original image alongside the segmented masks for each class (`CLEAR`, `CLOUD`, `CLOUD_SHADOW`).
 - View individual channels of the segmented output for a better understanding of the model’s predictions.
+## Dataset
 
+Here's the dataset, you can use to train it accordingly.
+https://www.kaggle.com/datasets/irfan2959/sentinel2-cloud-mask-catalogue
 ## Getting Started
 
 ### Prerequisites
